@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>GDB batch log</title>
+
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+
+</head>
+<body>
+
+  <div class="container">
+    <header class="page-header clearfix">
+      <h1><a class="navlink" href="./index.html">G<span>UN</span> D<span>OG</span> B<span>REWERY</span></a></h1>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a class="navlink" href="./kit_list.html">Kit list</a></li>
+          <li><a class="navlink" href="./batch_log.html">Batch log</a></li>
+          <li><a class="navlink" href="./specific_gravity.html">Specific gravity</a></li>
+          <li><a class="navlink" href="./airlock.html">Airlock</a></li>
+        </ul>
+      </nav>
+
+    </header>
+  </div>
+
+  <main>
+
+    <table>
+        <caption>Table of beer</caption>
+        <thead>
+          <tr>
+            <th>Batch #</th>
+            <th>Quantity (pints)</th>
+            <th>Beer</th>
+            <th>Name</th>
+            <th>ABV</th>
+            <th>Initiated</th>
+            <th>Bottled</th>
+            <th>Started</th>
+            <th>Finished</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>37</td>
+            <td>American pale ale</td>
+            <td><a href="./red_pony.html">Red Pony</a></td>
+            <td>Unknown</td>
+            <td>Jan 17 2016</td>
+            <td>Feb 19 2016</td>
+            <td>Mar 12 2016</td>
+            <td>Apr 29 2016</td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>TBC</td>
+            <td>Nut brown ale</td>
+            <td><a href="./mud.html">Mud</a></td>
+            <td>TBC</td>
+            <td>TBC</td>
+            <td>TBC</td>
+            <td>TBC</td>
+            <td>TBC</td>
+          </tr>
+        </tbody>
+      </table>
+  </main>
+
+  <footer class="main-footer" title="CPP: Cost Per Pint">
+  <p id="price-display">
+
+  </p>
+  </footer>
+
+  <script type="text/javascript">
+    window.beer = {
+      price: 4.51
+    };
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="./scripts/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,241 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+body {
+  background-image: url(./../images/beerfoam.jpg);
+  background-size: cover;
+}
+
+main {
+  min-height: calc(100vh - 179px);
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 25px auto;
+}
+
+th {
+  background-color: #CCC;
+  opacity: 0.9;
+}
+
+th, td {
+  text-align: center;
+  border: 1px solid #D76C00;
+  padding: 5px;
+  color: #440800;
+}
+
+caption {
+  visibility: hidden;
+}
+
+tr:nth-child(even) {
+  background: #CCC;
+  opacity: 0.9;
+}
+tr:nth-child(odd) {
+  background: papayawhip;
+  opacity: 0.8;
+}
+
+h1 {
+  float: left;
+  text-decoration: none;
+  margin: 0;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  color: papayawhip;
+}
+
+header {
+  background-color: teal;
+  z-index: 100;
+}
+
+footer {
+  background-color: teal;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 5px 0 0;
+}
+
+.page-header,
+.products {
+  padding: 15px;
+}
+
+.main-footer {
+  padding: 10px;
+}
+
+.page-header ul {
+  margin: 0;
+}
+
+.main-nav {
+  transform: translateY(18px);
+}
+
+.navlink {
+  text-decoration: none;
+  color: papayawhip;
+}
+
+.product-list {
+  font-size: 0;
+}
+
+.product-list li{
+  font-size: 1rem;
+  display: inline-block;
+
+}
+
+.beerlink {
+  text-decoration: none;
+  color: papayawhip;
+}
+
+.beerintro {
+  overflow: hidden;
+}
+
+.beerintro h2 {
+  font-size: 45px;
+  text-align: center;
+  color: #440800;
+}
+
+.beerintro p {
+  color: #440800;
+  font-size: 32px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.guide {
+  background-color: papayawhip;
+  opacity: 0.9;
+  font-size: 28px;
+  margin: 0 auto;
+  text-align: center;
+  min-height: calc(100vh - 99px);
+}
+
+.guide h2 {
+  padding-top: 30px;
+  color: #440800;
+  width: 65%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.guide p {
+  color: #440800;
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+span {
+  font-size: 32px;
+}
+
+  @media (max-width: 650px) {
+    span {
+      display: none;
+    }
+  }
+
+nav {
+    text-align: right;
+    display: block;
+}
+
+nav li {
+  float: right;
+}
+
+.main-nav li {
+  display: inline-block;
+  font-size: 24px;
+  padding: 15px;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 105px;
+}
+
+.beer {
+  border: 8px solid papayawhip;
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  padding-top: 55px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+
+.section {
+  background-color: papayawhip;
+  opacity: 0.8;
+  z-index: 1;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section li {
+margin: 0 auto;
+color: #440800;
+width: 40%;
+font-size: 18px;
+margin: 0 auto;
+padding-top: 12px;
+}
+
+/*.section p {
+  width: 80%;
+  margin: auto;
+}*/
+
+#price-display {
+  color: papayawhip;
+}
+
+.redpony {
+  background-color: #D76C00;
+  color: papayawhip;
+  opacity: 0.9;
+}
+
+.mud {
+  background-color: #440800;
+  opacity: 0.9;
+}
